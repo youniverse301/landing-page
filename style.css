@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(31,41,55);
+    margin: 0;
     font-family: roboto, sans-serif;
+    
 }
 
 .container-one {
     display: flex;
     justify-content: space-between;
-    flex: 1 0 auto
+    flex: 1 0 auto;
+    background-color: rgb(31,41,55);
 }
 
 .logo {
@@ -47,6 +49,7 @@ a {
     flex: 1 1 auto;
     margin-left: 13%;
     margin-top: 10%;
+    padding-bottom: 10%;
     justify-content: space-between;
     
   }
@@ -82,3 +85,39 @@ a {
     width: 35%;
     margin-right: 13%;
    }
+   
+   .alpha {
+    background-color: rgb(31,41,55);
+   }
+   
+   .title {
+    display: flex;
+    font-size: 36px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: bolder;
+    justify-content: center;
+   }
+
+
+   .discog-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    margin-right: 13%;
+    margin-left: 13%;
+    padding-bottom: 7%;
+  }
+
+  .info {
+    max-width: 200px;
+  }
+
+  .album-covers {
+    max-width: 200px;
+    max-height: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    
+  }
