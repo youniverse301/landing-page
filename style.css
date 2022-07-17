@@ -33,7 +33,6 @@ ul {
   align-items: center;
   font-size: 18px;
   margin-right: 13%;
-  
 }
 
 a {
@@ -43,24 +42,24 @@ a {
 
   .container-two {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row nowrap;
     align-items: center;
-    width: 500px;
+    flex: 1 1 auto;
     margin-left: 13%;
     margin-top: 10%;
+    justify-content: space-between;
+    
   }
 
   .text-container {
-    width: 500px;
-    
+    max-width: 500px;
+    flex-grow: 1;
   }
 
   .main-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-    
-    
   }
 
   .secondary-text {
@@ -79,6 +78,7 @@ a {
    }
 
    .concert {
-    max-height: 140px;
-    max-width: 500px;
+    height:216px;
+    width: 35%;
+    margin-right: 13%;
    }
