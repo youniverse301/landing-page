@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(31,41,55);
+    font-family: roboto, sans-serif;
+}
+
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 0 auto
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 13%;
+    margin-top: 1%;
+    align-self: center;
+}
+
+ul {
+    list-style-type: none;
+    
+  }
+
+.links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 1%;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 13%;
+  
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+
+  .container-two {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 500px;
+    margin-left: 13%;
+    margin-top: 10%;
+  }
+
+  .text-container {
+    width: 500px;
+    
+  }
+
+  .main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    
+    
+  }
+
+  .secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    
+  }
+   button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    width: 23%;
+    padding: 8px;
+    margin-top: 12px
+   }
+
+   .concert {
+    max-height: 140px;
+    max-width: 500px;
+   }
