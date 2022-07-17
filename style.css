@@ -48,8 +48,8 @@ a {
     align-items: center;
     flex: 1 1 auto;
     margin-left: 13%;
-    margin-top: 10%;
-    padding-bottom: 10%;
+    margin-top: 9%;
+    padding-bottom: 9%;
     justify-content: space-between;
     
   }
@@ -81,7 +81,7 @@ a {
    }
 
    .concert {
-    height:216px;
+    height:250px;
     width: 35%;
     margin-right: 13%;
    }
@@ -120,4 +120,31 @@ a {
     border-style: solid;
     border-color: #3882F6;
     
+  }
+
+  .quote-container {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 750px;
+    color: #1F2937;
+    padding-top: 7%;
+    
+  }
+
+  .quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-left: 57%;
+    padding-bottom: 7%;
   }
